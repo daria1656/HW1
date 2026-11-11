@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Assignment01Q04 {
-
+    // The method takes an array of integers, cyclically shifts its elements in the specified direction by the specified number ofpositions, and returns a reference to the original array.
     public static int[] shiftArrayCyclic(int[] array, int move, char direction) {
         if (array.length == 0) {
             return array;
